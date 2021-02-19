@@ -18,3 +18,14 @@ a,
 button {
   cursor: pointer;
 }
+
+.home {
+  background-image: url(https://cdn.wallpapersafari.com/43/63/E3iRV7.png);
+  background-position: center;
+  height: 95vh;
+  padding: 20vh;
+}
+
+.nav {
+  background-color: #17408b;
+}

@@ -1,5 +1,5 @@
 import './css/App.css';
-import { Route, Switch, Link } from 'react-router-dom'
+import { Route, Switch} from 'react-router-dom'
 
 // Components
 import Navbar from './components/Navbar'
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Switch>
-          <Route exact path='/dashboard' component={TeamForm} />
+          <Route exact path='/signin' component={TeamForm} />
           <Route exact path='/' component={Home} />
       </Switch>
     </div>
