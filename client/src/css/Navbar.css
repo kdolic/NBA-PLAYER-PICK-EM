@@ -1,0 +1,29 @@
+.nav {
+  padding-bottom: 10px;
+  display: flex;
+  background-color: #17408b;
+}
+
+img {
+  margin-left: 15rem;
+}
+
+.navLinks {
+  display: flex;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.links:hover {
+  color: silver;
+}
+
+/* tailwind
